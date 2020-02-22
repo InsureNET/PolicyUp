@@ -4204,10 +4204,79 @@
       "links": {},
       "address": "0xd3b1115BC5449C005640fCB1A39DA1ae8d4a7db5",
       "transactionHash": "0x08c3d53ae9b43f6f5ad900f5a2efdc653e3035837a4a1ce068443048f066cf7d"
+    },
+    "1582393458522": {
+      "events": {
+        "0xc66336337a24e513f909b3b25119854dba8385d51307dbc7d31d1b2805e19c7e": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tipAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address payable",
+              "name": "author",
+              "type": "address"
+            }
+          ],
+          "name": "PostCreated",
+          "type": "event"
+        },
+        "0x20988fe475351e75813672abada1dddb7ac67cbbeb81e61e1160b8329d8cdf1c": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tipAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address payable",
+              "name": "author",
+              "type": "address"
+            }
+          ],
+          "name": "PostTipped",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x896EB0c983d034653C87CdB09CEa0B7b8eC7a04A",
+      "transactionHash": "0x2216be9027cfd568d087aeda4ffbeb3480381d1658962510aef7bf2df94fd321"
     }
   },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-02-21T23:43:13.444Z",
+  "updatedAt": "2020-02-22T17:45:22.520Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

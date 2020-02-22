@@ -96,12 +96,12 @@ class Main extends Component {
                           className="btn btn-info btn-sm float-right pt-0"
                           name={post.id}
                           onClick={(event) => {
-                            let tipAmount = window.web3.utils.toWei('0.007', 'Ether')
+                            let tipAmount = window.web3.utils.toWei('0.001', 'Ether')
                             console.log(event.target.name, tipAmount)
                             this.props.tipPost(event.target.name, tipAmount)
                           }}
                         >
-                          <strong>up-it!</strong> [0.007 ETH]
+                          <strong>up-it!</strong> [0.001 ETH]
                         </button>
                       </li>
                     </ul>
