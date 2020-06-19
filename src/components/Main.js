@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Identicon from 'identicon.js';
-const logo = 'https://spee.ch/8/upSpeak1.png'
+//const logo = 'https://spee.ch/8/upSpeak1.png'
 const eth = 'https://spee.ch/f/ethicon.png'
 
 const motd = [ 'upSpeak is an Ethereum based Decentralized Social Network!',
@@ -101,7 +101,7 @@ class Main extends Component {
                             this.props.tipPost(event.target.name, tipAmount)
                           }}
                         >
-                          <strong>up-it!</strong> [0.001 ETH]
+                          <strong>up-it!</strong> [0.001y ETH]
                         </button>
                       </li>
                     </ul>
